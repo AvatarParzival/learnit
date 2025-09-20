@@ -1,0 +1,26 @@
+{
+  "name": "studenthub-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "start:server": "node server/server.js",
+    "start:client": "npm start --prefix client",
+    "build": "npm run build:client",
+    "build:client": "npm run build --prefix client",
+    "install": "npm install --prefix server && npm install --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "test": "concurrently \"npm test --prefix server\" \"npm test --prefix client\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
