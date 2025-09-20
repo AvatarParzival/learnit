@@ -5,15 +5,15 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** application for managin
 ---
 
 ## 📑 Table of Contents
-1. [Overview](#overview)  
-2. [Tech Stack](#tech-stack)  
-3. [Features](#features)  
-4. [Security Features](#security-features)  
-5. [Screenshots](#screenshots)  
-6. [Installation & Setup](#installation--setup)  
-7. [Dependency Management](#dependency-management)  
-8. [Author](#author)
-9. [License](#license)  
+1. [Overview](#-overview)  
+2. [Tech Stack](#-tech-stack)  
+3. [Features](#-features)  
+4. [Security Features](#-security-features)  
+5. [Screenshots](#-screenshots)  
+6. [Installation & Setup](#%EF%B8%8F-installation--setup)  
+7. [Dependency Management](#-dependency-management)  
+8. [Author](#%E2%80%8D-author)
+9. [License](#-license)  
 
 ---
 
