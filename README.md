@@ -142,7 +142,7 @@ Now visit 👉 `http://localhost:3000`
 
 ## 👨‍💻 Author
 **Your Name**  
-📧 abdullah69zubair"gmail.com  
+📧 abdullah69zubair@gmail.com  
 🔗 [GitHub](https://github.com/avatarparzival)  
 
 ---
