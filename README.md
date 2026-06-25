@@ -141,7 +141,7 @@ Now visit 👉 `http://localhost:3000`
 ---
 
 ## 👨‍💻 Author
-**Your Name**  
+**Abdullah Zubair**  
 📧 abdullah69zubair@gmail.com  
 🔗 [GitHub](https://github.com/avatarparzival)  
 
