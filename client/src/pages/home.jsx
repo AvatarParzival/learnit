@@ -307,7 +307,7 @@ export default function Home() {
             Learn Anything. Anytime. Anywhere.
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-indigo-100 text-lg">
-            Join millions of students learning on {settings.platformName?.split(" ")[0] || "Student"}<span>{settings.platformName?.split(" ")[1] || "Hub"}</span>.
+            Join millions of students learning on {settings.platformName?.split(" ")[0] || "Learn"}<span>{settings.platformName?.split(" ")[1] || "It"}</span>.
           </p>
           <Link
             to="/courses"
