@@ -29,13 +29,13 @@ const About = () => {
     <div className="max-w-6xl mx-auto px-4 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-          About {settings.platformName?.split(" ")[0] || "Student"}
-          <span>{settings.platformName?.split(" ")[1] || "Hub"}</span>
+          About {settings.platformName?.split(" ")[0] || "Learn"}
+          <span>{settings.platformName?.split(" ")[1] || "It"}</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           We believe knowledge should have no borders.{" "}
-          {settings.platformName?.split(" ")[0] || "Student"}
-          <span>{settings.platformName?.split(" ")[1] || "Hub"}</span> empowers
+          {settings.platformName?.split(" ")[0] || "Learn"}
+          <span>{settings.platformName?.split(" ")[1] || "It"}</span> empowers
           anyone, anywhere to master new skills on their own terms.
         </p>
       </div>
