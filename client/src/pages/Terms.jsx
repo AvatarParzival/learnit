@@ -48,12 +48,12 @@ useEffect(() => {
       <section id="terms" className="mb-12">
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">Terms of Service</h2>
         <p className="mb-4 text-gray-600">
-          Welcome to {settings.platformName?.split(" ")[0] || "Student"}<span>{settings.platformName?.split(" ")[1] || "Hub"}</span>. By using our platform, you agree to comply with these Terms of Service.
+          Welcome to {settings.platformName?.split(" ")[0] || "Learn"}<span>{settings.platformName?.split(" ")[1] || "It"}</span>. By using our platform, you agree to comply with these Terms of Service.
         </p>
 
         <h3 className="text-lg font-semibold mt-4 mb-2">1. Acceptance of Terms</h3>
         <p className="mb-3 text-gray-600">
-          By accessing or using {settings.platformName?.split(" ")[0] || "Student"}<span>{settings.platformName?.split(" ")[1] || "Hub"}</span>, you agree to be bound by these Terms and our Privacy Policy.
+          By accessing or using {settings.platformName?.split(" ")[0] || "Learn"}<span>{settings.platformName?.split(" ")[1] || "It"}</span>, you agree to be bound by these Terms and our Privacy Policy.
         </p>
 
         <h3 className="text-lg font-semibold mt-4 mb-2">2. User Responsibilities</h3>
@@ -63,7 +63,7 @@ useEffect(() => {
 
         <h3 className="text-lg font-semibold mt-4 mb-2">3. Courses and Content</h3>
         <p className="mb-3 text-gray-600">
-          All content, including courses and materials, is owned by StudentHub or respective instructors.
+          All content, including courses and materials, is owned by LearnIt or respective instructors.
         </p>
 
         <h3 className="text-lg font-semibold mt-4 mb-2">4. Termination</h3>
@@ -75,7 +75,7 @@ useEffect(() => {
       <section id="privacy">
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">Privacy Policy</h2>
         <p className="mb-4 text-gray-600">
-          At {settings.platformName?.split(" ")[0] || "Student"}<span>{settings.platformName?.split(" ")[1] || "Hub"}</span>, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your data.
+          At {settings.platformName?.split(" ")[0] || "Learn"}<span>{settings.platformName?.split(" ")[1] || "It"}</span>, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your data.
         </p>
 
         <h3 className="text-lg font-semibold mt-4 mb-2">1. Information We Collect</h3>
