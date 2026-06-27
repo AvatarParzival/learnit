@@ -53,9 +53,9 @@ useEffect(() => {
               className="h-8 w-auto mr-2"
             />
               <h1 class="text-xl font-bold text-gray-300">
-                {settings.platformName?.split(" ")[0] || "Student"}
+                {settings.platformName?.split(" ")[0] || "Learn"}
                 <span className="text-brown">
-                  {settings.platformName?.split(" ")[1] || "Hub"}
+                  {settings.platformName?.split(" ")[1] || "It"}
                 </span></h1>
             </div>
             <p className="mt-4 text-gray-300">
@@ -141,7 +141,7 @@ useEffect(() => {
         </div>
 
         <div className="mt-4 pt-4 border-t border-gray-700 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} {settings.platformName?.split(" ")[0] || "Student"}<span>{settings.platformName?.split(" ")[1] || "Hub"}</span>. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {settings.platformName?.split(" ")[0] || "Learn"}<span>{settings.platformName?.split(" ")[1] || "It"}</span>. All rights reserved.</p>
         </div>
       </div>
     </footer>
