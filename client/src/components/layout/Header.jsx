@@ -157,9 +157,9 @@ export default function Header() {
                   className="h-8 w-auto mr-2"
                 />
                 <h1 className="text-xl font-bold text-gray-800">
-                  {settings.platformName?.split(" ")[0] || "Student"}
+                  {settings.platformName?.split(" ")[0] || "Learn"}
                   <span className="text-brown">
-                    {settings.platformName?.split(" ")[1] || "Hub"}
+                    {settings.platformName?.split(" ")[1] || "It"}
                   </span>
                 </h1>
               </Link>
